@@ -728,4 +728,10 @@ body {
   opacity: 1;
 }
 
+.review-form-checkbox:focus
+  + .review-form-checkbox-label
+  > .review-form-own-checkbox {
+  outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+
 /* =================MODAL WINDOW STILES================ */
