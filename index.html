@@ -670,20 +670,29 @@
           </div>
 
           <div class="reviev-form-field-wrapper">
-            <label class="reviev-form-field-label" for="">Comment</label>
+            <label class="reviev-form-field-label" for="user-comment"
+              >Comment</label
+            >
             <textarea
-              name=""
-              id=""
-              cols="30"
-              rows="10"
               class="reviev-form-comment"
+              id="user-comment"
+              name="user-ccomment"
               placeholder="Text input"
-            ></textarea>
+              required
+            >
+            </textarea>
           </div>
 
           <div class="reviev-form-checkbox-wrapper">
-            <input type="checkbox" class="reviev-form-checkbox" />
-            <label class="reviev-form-checkbox-label" for=""
+            <input
+              class="reviev-form-checkbox"
+              id="user-privacy-policy"
+              name="user-privacy-policy"
+              type="checkbox"
+              value="true"
+              required
+            />
+            <label class="reviev-form-checkbox-label" for="user-privacy-policy"
               >I accept the terms and conditions of the
               <a href="">Privacy Policy></a></label
             >
