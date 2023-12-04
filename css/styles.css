@@ -585,4 +585,21 @@ body {
   background: var(--DAIRY, #fcfcfc);
 }
 
+.modal-close-btn {
+  background-color: var(--accent);
+  border: none;
+  border-radius: 50px;
+  width: 24px;
+  height: 24px;
+  padding: 0;
+  position: absolute;
+  right: 24px;
+  top: 24px;
+  background: var(--CORNFLOWER, #e7e9fc);
+  stroke-width: 1px;
+  stroke: rgba(0, 0, 0, 0.1);
+}
+.modal-close-btn-icon {
+}
+
 /* =================MODAL WINDOW STILES================ */
