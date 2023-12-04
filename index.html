@@ -626,6 +626,70 @@
             <use href="./images/icons.svg#icon-close-black-18dp"></use>
           </svg>
         </button>
+        <p class="reviev-form-discription">
+          leave your contacts and we will call you back
+        </p>
+        <form class="reviev-form">
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="user-name">Name</label>
+            <input
+              class="reviev-form-imput"
+              id="user-name"
+              name="user-name"
+              type="text"
+              pattern="[a-zA-Zа-ЯіІїЇєЄґҐ']+"
+              title="Mike"
+              required
+            />
+          </div>
+
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="user-tel">Phone</label>
+            <input
+              class="reviev-form-imput"
+              id="user-tel"
+              name="user-tel"
+              type="tel"
+              pattern="[0-9]{3}-[0-9]{3}-[0-9]{2}-[0-9]{2}"
+              title="xxx-xxx-xx-xx"
+              required
+            />
+          </div>
+
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="user-email"
+              >Email</label
+            >
+            <input
+              class="reviev-form-imput"
+              id="user-email"
+              name="user-email"
+              type="email"
+              required
+            />
+          </div>
+
+          <div class="reviev-form-field-wrapper">
+            <label class="reviev-form-field-label" for="">Comment</label>
+            <textarea
+              name=""
+              id=""
+              cols="30"
+              rows="10"
+              class="reviev-form-comment"
+              placeholder="Text input"
+            ></textarea>
+          </div>
+
+          <div class="reviev-form-checkbox-wrapper">
+            <input type="checkbox" class="reviev-form-checkbox" />
+            <label class="reviev-form-checkbox-label" for=""
+              >I accept the terms and conditions of the
+              <a href="">Privacy Policy></a></label
+            >
+          </div>
+          <button class="reviev-form-submit-btn" type="submit">Send</button>
+        </form>
       </div>
     </div>
 
