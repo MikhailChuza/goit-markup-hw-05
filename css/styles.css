@@ -554,6 +554,17 @@ body {
 .social-list-link-footer:focus {
   background-color: #31d0aa;
 }
+/* =================SUBSCRIBE FORM======================*/
+
+.subsribe-form-text {
+  margin-bottom: 16px;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+  letter-spacing: 0.02em;
+  color: #ffffff;
+}
+/* =================SUBSCRIBE FORM======================*/
 
 /* ================ FOOTER ============================ */
 /* =================BACKDROP=========================== */
