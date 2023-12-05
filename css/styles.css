@@ -644,7 +644,7 @@ body {
   border-radius: 4px;
   background: var(--DAIRY, #fcfcfc);
   width: 408px;
-  margin-bottom: 16px;
+
   min-height: 584px;
   padding: 72px 24px 24px 24px;
   position: absolute;
@@ -796,10 +796,19 @@ body {
   opacity: 1;
 }
 
-.review-form-checkbox:focus
+/* .review-form-checkbox:focus 
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
   outline: 2px solid rgba(0, 0, 255, 0.5);
+}
+*/
+
+review-form-checkbox
+  visually-hidden:checked
+  + review-form-checkbox-label
+  > review-form-own-checkbox {
+  fill: #f4f4fd;
+  border: none;
 }
 
 .review-form-checkbox-label {
