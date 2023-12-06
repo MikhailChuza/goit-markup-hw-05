@@ -806,8 +806,7 @@ body {
 }
 */
 
-.review-form-checkbox
-  .visually-hidden:checked
+.review-form-checkbox:checked
   + .review-form-checkbox-label
   > .review-form-own-checkbox {
   fill: #f4f4fd;
