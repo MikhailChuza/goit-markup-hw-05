@@ -828,8 +828,13 @@ review-form-checkbox
 .review-form-checkbox {
   transition: border-color 250ms cubic-bezier(0.4, 0, 0.2, 1);
 }
-.review-form-input-wrapper input:focus + svg use {
+/* .review-form-input-wrapper input:focus + svg use { 
   fill: #4d5ae5;
+
+}
+*/
+.privacy-text-color {
+  color: #4d5ae5;
 }
 
 /* =================MODAL WINDOW STILES================ */
